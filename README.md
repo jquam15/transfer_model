@@ -4,7 +4,7 @@ Welcome to my college basketball transfer model! Here I use a variety of perform
 
 Data was acquired from the [Basketball Reference](https://www.sports-reference.com/cbb/play-index/psl_finder.cgi) and [Verbal Commits](https://www.verbalcommits.com/transfers/2022) websites
 
-The data folder contains the following files:
+The file **get_data.ipynb** contains the Python code that I used to scrape the data from the aforementioned websites. I saved the scraped data into csv files in the **data** folder. I then combined those files to get the data I used for modeling (transfers_with_stats.csv and transfers_with_stats_2023.csv). The data folder contains the following files:
 
 * **college_advanced.csv** contains advanced player performance statistics from which I'll take the 2020-21 and 2021-22 seasons
 * **college_advanced_2023.csv** contains advanced player performance statistics for the 2022-23 season
