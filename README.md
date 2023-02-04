@@ -2,7 +2,9 @@
 
 Welcome to my college basketball transfer model! Here I use a variety of performance statistics to predict a player's Box Plus Minus (BPM) in their post transfer season to determine which players will be "effective" transfers for their new team.
 
-Data was acquired from the [Basketball Reference](https://www.sports-reference.com/cbb/play-index/psl_finder.cgi) and [Verbal Commits](https://www.verbalcommits.com/transfers/2022) websites
+Data was acquired from the [Basketball Reference](https://www.sports-reference.com/cbb/play-index/psl_finder.cgi) and [Verbal Commits](https://www.verbalcommits.com/transfers/2022) websites.
+
+The file **analysis.ipynb** contains the code I used to make the model as well as some basic analysis. I will have a full write up posted to my website in the coming days and post the link here that goes into more detailed analysis.
 
 The file **get_data.ipynb** contains the Python code that I used to scrape the data from the aforementioned websites. I saved the scraped data into csv files in the **data** folder. I then combined those files to get the data I used for modeling (transfers_with_stats.csv and transfers_with_stats_2023.csv). The data folder contains the following files:
 
