@@ -1,5 +1,7 @@
 # Transfer Model
 
+**IMPORTANT UPDATE: The verbal commits website changed their format, so the url I used to scrape the verbal commits data in the file "get_data.ipynb" no longer goes to the original page I used for scraping. The csv files containing the data are uploaded to the data folder of my Github, so it has no impact on my code or analysis. That being said, those who wish to use that code from scratch without downloading the data files would need to make modifications to the code**
+
 Welcome to my college basketball transfer model! Here I use a variety of performance statistics to predict a player's Box Plus Minus (BPM) in their post transfer season to determine which players will be "effective" transfers for their new team.
 
 Data was acquired from the [Basketball Reference](https://www.sports-reference.com/cbb/play-index/psl_finder.cgi) and [Verbal Commits](https://www.verbalcommits.com/transfers/2022) websites.
